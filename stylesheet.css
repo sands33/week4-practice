@@ -1,0 +1,87 @@
+* {margin: 0;}
+{padding:0;}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}        
+
+h1 {font-size:3rem;
+    color:hsla(267, 59%, 56%, 1);
+    background-color:hsla(267, 59%, 98%, 1);
+    padding: 18px 15rem 18px 23rem;
+        }
+
+header li
+{
+        display: inline-block;
+        padding: 0.5rem 5rem;
+        border-left: 7px solid hsla(235, 22%, 36%, 1);
+        background-color: hsla(267, 59%, 56%, 1);
+       
+}
+
+body {background-color:hsla(242, 86%, 93%, 1);}
+ul {text-color: white;}       
+div ul {
+    margin-left:2.52rem;
+    clear:both;
+    float:left;
+    width:220px;
+    height:300px;
+    padding:10.05rem 1.05rem 14.7rem 1.05rem;
+    overflow: hidden;
+    background-color:hsla(267, 59%, 75%, 1);
+    }
+
+div li {
+    float:center;
+    padding:1.05rem 1.05rem 2.05rem 5rem;
+    overflow: hidden
+    }
+
+#bowl
+{padding :5em 20em 5em 8em; width:40%;}
+
+p {
+    padding-left: 22rem;
+    padding-bottom: 5rem;
+    width:50%;}    
+        
+footer {background-color: white;
+    padding-left: 44%;
+width: 80%;}
+
+#link {color:hsla(267, 59%, 100%, 1);}
+#photo {color:hsla(267, 59%, 100%, 1);}
+
+
+
+
+
+
+        
+        
